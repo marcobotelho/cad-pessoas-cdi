@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="bean.PessoaBeanTest" time="0.005" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\ArquivosDesenvolvimento\workspace-eclipse\cad-pessoas-cdi\target\test-classes;D:\ArquivosDesenvolvimento\workspace-eclipse\cad-pessoas-cdi\target\classes;C:\Users\marco\.m2\repository\org\mockito\mockito-core\4.9.0\mockito-core-4.9.0.jar;C:\Users\marco\.m2\repository\net\bytebuddy\byte-buddy\1.12.16\byte-buddy-1.12.16.jar;C:\Users\marco\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.16\byte-buddy-agent-1.12.16.jar;C:\Users\marco\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\marco\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\marco\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\marco\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\marco\.m2\repository\com\sun\faces\jsf-api\2.2.11\jsf-api-2.2.11.jar;C:\Users\marco\.m2\repository\com\sun\faces\jsf-impl\2.2.11\jsf-impl-2.2.11.jar;C:\Users\marco\.m2\repository\org\primefaces\primefaces\12.0.0\primefaces-12.0.0.jar;C:\Users\marco\.m2\repository\org\hibernate\hibernate-entitymanager\5.6.15.Final\hibernate-entitymanager-5.6.15.Final.jar;C:\Users\marco\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\marco\.m2\repository\org\hibernate\hibernate-core\5.6.15.Final\hibernate-core-5.6.15.Final.jar;C:\Users\marco\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\marco\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\marco\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\marco\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\marco\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\marco\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\marco\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\marco\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\marco\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\marco\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\marco\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\marco\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\marco\.m2\repository\org\hibernate\hibernate-validator\5.4.3.Final\hibernate-validator-5.4.3.Final.jar;C:\Users\marco\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\marco\.m2\repository\com\fasterxml\classmate\1.3.1\classmate-1.3.1.jar;C:\Users\marco\.m2\repository\org\hibernate\hibernate-c3p0\5.4.32.Final\hibernate-c3p0-5.4.32.Final.jar;C:\Users\marco\.m2\repository\com\mchange\c3p0\0.9.5.5\c3p0-0.9.5.5.jar;C:\Users\marco\.m2\repository\com\mchange\mchange-commons-java\0.2.19\mchange-commons-java-0.2.19.jar;C:\Users\marco\.m2\repository\org\postgresql\postgresql\42.3.8\postgresql-42.3.8.jar;C:\Users\marco\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\marco\.m2\repository\org\jboss\weld\servlet\weld-servlet\2.3.5.Final\weld-servlet-2.3.5.Final.jar;C:\Users\marco\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\marco\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\marco\.m2\repository\org\glassfish\javax.el\3.0.1-b12\javax.el-3.0.1-b12.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="D:\ArquivosProgramasPortatil\jdk-17.0.9\bin"/>
+    <property name="sun.java.command" value="C:\Users\marco\AppData\Local\Temp\surefire865605867693075303\surefirebooter-20240426073319069_3.jar C:\Users\marco\AppData\Local\Temp\surefire865605867693075303 2024-04-26T07-33-18_927-jvmRun1 surefire-20240426073319069_1tmp surefire_0-20240426073319069_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\ArquivosDesenvolvimento\workspace-eclipse\cad-pessoas-cdi\target\test-classes;D:\ArquivosDesenvolvimento\workspace-eclipse\cad-pessoas-cdi\target\classes;C:\Users\marco\.m2\repository\org\mockito\mockito-core\4.9.0\mockito-core-4.9.0.jar;C:\Users\marco\.m2\repository\net\bytebuddy\byte-buddy\1.12.16\byte-buddy-1.12.16.jar;C:\Users\marco\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.16\byte-buddy-agent-1.12.16.jar;C:\Users\marco\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\marco\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\marco\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\marco\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\marco\.m2\repository\com\sun\faces\jsf-api\2.2.11\jsf-api-2.2.11.jar;C:\Users\marco\.m2\repository\com\sun\faces\jsf-impl\2.2.11\jsf-impl-2.2.11.jar;C:\Users\marco\.m2\repository\org\primefaces\primefaces\12.0.0\primefaces-12.0.0.jar;C:\Users\marco\.m2\repository\org\hibernate\hibernate-entitymanager\5.6.15.Final\hibernate-entitymanager-5.6.15.Final.jar;C:\Users\marco\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\marco\.m2\repository\org\hibernate\hibernate-core\5.6.15.Final\hibernate-core-5.6.15.Final.jar;C:\Users\marco\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\marco\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\marco\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\marco\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\marco\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\marco\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\marco\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\marco\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\marco\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\marco\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\marco\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\marco\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\marco\.m2\repository\org\hibernate\hibernate-validator\5.4.3.Final\hibernate-validator-5.4.3.Final.jar;C:\Users\marco\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\marco\.m2\repository\com\fasterxml\classmate\1.3.1\classmate-1.3.1.jar;C:\Users\marco\.m2\repository\org\hibernate\hibernate-c3p0\5.4.32.Final\hibernate-c3p0-5.4.32.Final.jar;C:\Users\marco\.m2\repository\com\mchange\c3p0\0.9.5.5\c3p0-0.9.5.5.jar;C:\Users\marco\.m2\repository\com\mchange\mchange-commons-java\0.2.19\mchange-commons-java-0.2.19.jar;C:\Users\marco\.m2\repository\org\postgresql\postgresql\42.3.8\postgresql-42.3.8.jar;C:\Users\marco\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\marco\.m2\repository\org\jboss\weld\servlet\weld-servlet\2.3.5.Final\weld-servlet-2.3.5.Final.jar;C:\Users\marco\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\marco\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\marco\.m2\repository\org\glassfish\javax.el\3.0.1-b12\javax.el-3.0.1-b12.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\marco"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="D:\ArquivosProgramasPortatil\jdk-17.0.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="D:\ArquivosDesenvolvimento\workspace-eclipse\cad-pessoas-cdi"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\marco\AppData\Local\Temp\surefire865605867693075303\surefirebooter-20240426073319069_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="marco"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\marco\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\marco\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="D:\ArquivosDesenvolvimento\workspace-eclipse\cad-pessoas-cdi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\ArquivosProgramasPortatil\jdk-17.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/ArquivosProgramasPortatil/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;D:/ArquivosProgramasPortatil/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin;C:\Program Files (x86)\Embarcadero\Studio\22.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\22.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\Win64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\ArquivosProgramasPortatil\jdk-17.0.9\bin;D:\ArquivosProgramasPortatil\apache-maven-3.9.6\bin;D:\ArquivosProgramasPortatil\PortableGit\cmd;D:\ArquivosProgramasPortatil\node-v20.11.0-win-x64;D:\ArquivosProgramasPortatil\apache-tomcat-9.0.85\bin;D:\ArquivosProgramasPortatil\python-3.12.1-embed-amd64;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\ArquivosProgramasPortatil\vscode;C:\Users\marco\AppData\Local\Microsoft\WindowsApps;;D:\ArquivosProgramasPortatil\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSalvarNovoSuccess" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testSalvarNovoError" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testEditarSuccess" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testExcluirPorIdSuccess" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testGoToEnderecosSuccess" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testLimparSuccess" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testGoToEnderecos_IOException" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="teste" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testExcluirSuccess" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testExcluirPorIdNotFound" classname="bean.PessoaBeanTest" time="0.0"/>
+  <testcase name="testSalvarExistenteSuccess" classname="bean.PessoaBeanTest" time="0.001"/>
+  <testcase name="testExcluirNotFound" classname="bean.PessoaBeanTest" time="0.001"/>
+  <testcase name="testSalvarExistenteError" classname="bean.PessoaBeanTest" time="0.002"/>
+</testsuite>
