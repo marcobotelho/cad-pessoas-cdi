@@ -23,3 +23,8 @@
 hs_err_pid*
 replay_pid*
 /target
+
+# Banco de dados gerado pelo docker-compose #
+#############################################
+/postgres-data
+
