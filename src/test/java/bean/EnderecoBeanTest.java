@@ -406,7 +406,7 @@ public class EnderecoBeanTest {
 
 	@Test
 	public void testBuscaEnderecoByCep() {
-		String cep = "01001-000";
+		String cep = "22421-030";
 		// Mock para o objeto endereco
 		Endereco endereco = new Endereco();
 		endereco.setCep(cep);
@@ -415,10 +415,10 @@ public class EnderecoBeanTest {
 		enderecoBean.buscaEnderecoByCep();
 
 		// Verifica se os atributos do objeto endereco foram atualizados corretamente
-		Assert.assertEquals("01001-000", enderecoBean.getEndereco().getCep());
-		Assert.assertEquals("Praça da Sé", enderecoBean.getEndereco().getLogradouro());
-		Assert.assertEquals("Sé", enderecoBean.getEndereco().getBairro());
-		Assert.assertEquals("São Paulo", enderecoBean.getEndereco().getCidade());
-		Assert.assertEquals("SP", enderecoBean.getEndereco().getEstado());
+		Assert.assertEquals("22421-030", enderecoBean.getEndereco().getCep());
+		Assert.assertEquals("Rua Redentor", enderecoBean.getEndereco().getLogradouro());
+		Assert.assertEquals("Ipanema", enderecoBean.getEndereco().getBairro());
+		Assert.assertEquals("Rio de Janeiro", enderecoBean.getEndereco().getCidade());
+		Assert.assertEquals("RJ", enderecoBean.getEndereco().getEstado());
 	}
 }
